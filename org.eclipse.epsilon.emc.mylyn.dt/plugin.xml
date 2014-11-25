@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.epsilon.common.dt.modelType">
+      <modelType
+            class="org.eclipse.epsilon.emc.mylyn.MylynTaskListModel"
+            dialog="org.eclipse.epsilon.emc.mylyn.dt.MylynTaskListModelConfigurationDialog"
+            icon="images/task-list.gif"
+            label="Mylyn Task List"
+            stable="true"
+            type="MylynTaskList">
+      </modelType>
+   </extension>
+
+</plugin>
